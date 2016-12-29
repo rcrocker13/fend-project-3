@@ -1,0 +1,72 @@
+body {
+  width: 95%;
+  margin: 0 auto;
+}
+header {
+  justify-content: space-between;
+  align-items: center;
+}
+main img {
+  margin: 20px 0;
+  width: 100%;
+}
+article {
+  text-align: center;
+}
+article>picture>img {
+  justify-content: justify;
+  margin: 0 auto;
+}
+article h3 {
+  margin: 5px auto;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 28px;
+}
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #2d3c49;
+}
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #2d3c49;
+}
+p {
+  margin-top: 5px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #2d3c49;
+}
+hr {
+  border: solid 2px #7d97ad;
+}
+.container {
+  display: flex;
+  margin: 0 auto;
+}
+.container.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.section-title {
+  margin: 10px 0;
+  color: #7d97ad;
+  font-weight: 300;
+  font-size: 32px;
+}
+#author {
+  text-align: right;
+  text-transform: uppercase;
+}
+#author h1 {
+  margin: 0 auto;
+  font-size: 50px;
+  font-weight: 100;
+}
+#author h3 {
+  margin: 0 auto;
+  font-weight: 400;
+}
